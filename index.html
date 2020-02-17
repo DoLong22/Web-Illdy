@@ -6,10 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="../ForWeb/FontAwesome/css/all.css">
+    <!-- <script src="js/bootstrap.min.js"></script> -->
     <link rel="stylesheet" href="style.css">
-    <script src="jquery/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <title>Document</title>
 </head>
 
@@ -20,15 +19,18 @@
         </div>
         <div class="top-header">
             <img src="./images/footer-logo.png" alt="">
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Portfolio</a></li>
-                <li><a href="">Testimonials</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">Our Team</a></li>
-                <li><a href="">Contact Us</a></li>
-            </ul>
+            <span id="btn-menu" class="menu-resposive-header"><i class="fas fa-bars"></i></span>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#id-about">About</a></li>
+                    <li><a href="#id-project">Portfolio</a></li>
+                    <li><a href="#slide-show">Testimonials</a></li>
+                    <li><a href="#id-services">Services</a></li>
+                    <li><a href="#blogs">Blog</a></li>
+                    <li><a href="#team">Our Team</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
         </div>
         <div class="bottom-header">
             <div class="name-page">
@@ -37,11 +39,11 @@
             </div>
             <div class="section-description">
                 <p>lldy is a great one-page theme, perfect for developers and designers
-                     but also for someone who just wants a new website for his business. Try it now!
+                    but also for someone who just wants a new website for his business. Try it now!
                 </p>
                 <div class="btn-header">
                     <a href="">Learn more</a>
-                <a href="">Download</a>
+                    <a href="">Download</a>
                 </div>
             </div>
         </div>
@@ -49,14 +51,14 @@
 
 
     <main>
-                                                                <!-- About -->
+        <!-- About -->
         <div id="id-about" class="class-about">
             <div class="name-about">
                 <h3>About</h3>
             </div>
             <div class="section-description">
-                <p>It is an amazng one-page theme with great features that offers an incredible 
-                    experience. It is easy to install, make changes, adapt for your business. 
+                <p>It is an amazng one-page theme with great features that offers an incredible
+                    experience. It is easy to install, make changes, adapt for your business.
                     A modern design with clean lines and styling for a wide variety of content,
                     exactly how a business design should be. You can add as many images as you want
                     to the main header area and turn them into slider.
@@ -77,7 +79,7 @@
                         <span><i class="fa fa-font"></i> Typography</span>
                     </div>
                 </div>
-                
+
                 <!---------------------------->
 
                 <div class="skill" id="design-skill">
@@ -89,8 +91,8 @@
                         </div>
                     </div>
                     <div class="name-skill">
-                        <span><i class="fas fa-pencil-alt"></i> Design</span>            
-                    
+                        <span><i class="fas fa-pencil-alt"></i> Design</span>
+
                     </div>
                 </div>
 
@@ -105,13 +107,13 @@
                         </div>
                     </div>
                     <div class="name-skill">
-                        <span><i class="fa fa-code"></i> Development</span>                       
+                        <span><i class="fa fa-code"></i> Development</span>
                     </div>
                 </div>
             </div>
         </div>
 
-                                                                <!-- Project -->
+        <!-- Project -->
 
         <div id="id-project" class="class-project">
             <div class="top-project">
@@ -125,9 +127,9 @@
                 <img src="./images/front-page/front-page-project-1.jpg" alt="">
             </div>
         </div>
-                                                                <!-- Testimonials -->
+        <!-- Testimonials -->
 
-        <div class="slide-show">
+        <div id = "slide-show" class="slide-show">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <h3>Testimonials</h3>
                 <div class="carousel-inner" role="listbox">
@@ -135,7 +137,9 @@
                         <div class="carousel-caption">
                             <img src="./images/front-page/front-page-team-1.jpg" alt="...">
                             <div class="infor">
-                                <p>Awesome theme with great design and awesome&nbsp;support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is
+                                <p>Awesome theme with great design and awesome&nbsp;support. If you don’t know how to
+                                    code your own WordPress theme, but you still want a good-looking website for your
+                                    business, Illdy might be exactly what you need. It is
                                     a slick theme with a lot of of features to choose from.
                                 </p>
                             </div>
@@ -147,7 +151,10 @@
                             <img src="./images/front-page/front-page-team-2.jpg" alt="...">
                             <div class="infor">
                                 <p>
-                                    Awesome theme with great design and awesome&nbsp;support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features
+                                    Awesome theme with great design and awesome&nbsp;support. If you don’t know how to
+                                    code your own WordPress theme, but you still want a good-looking website for your
+                                    business, Illdy might be exactly what you need. It is a slick theme with a lot of of
+                                    features
                                     to choose from.
                                 </p>
                             </div>
@@ -159,7 +166,10 @@
                             <img src="./images/front-page/front-page-team-3.jpg" alt="...">
                             <div class="infor">
                                 <p>
-                                    Awesome theme with great design and awesome&nbsp;support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business. You can customize whatever section you want and you can rest assure that no
+                                    Awesome theme with great design and awesome&nbsp;support. If you don’t know how to
+                                    code your own WordPress theme, but you still want a good-looking website for your
+                                    business. You can customize whatever section you want and you can rest assure that
+                                    no
                                     matter what device your website is viewed on – it looks great.
                                 </p>
                             </div>
@@ -172,7 +182,10 @@
                             <img src="./images/front-page/front-page-testimonial-1.jpg" alt="...">
                             <div class="infor">
                                 <p>
-                                    Awesome theme with great design and awesome&nbsp;support. If you don’t know how to code your own WordPress theme, but you still want a good-looking website for your business, Illdy might be exactly what you need. It is a slick theme with a lot of of features
+                                    Awesome theme with great design and awesome&nbsp;support. If you don’t know how to
+                                    code your own WordPress theme, but you still want a good-looking website for your
+                                    business, Illdy might be exactly what you need. It is a slick theme with a lot of of
+                                    features
                                     to choose from.
                                 </p>
                             </div>
@@ -191,7 +204,7 @@
                 </a>
             </div>
         </div>
-                                                                <!-- Services -->
+        <!-- Services -->
 
         <div id="id-services" class="class-services">
             <div class="top-services">
@@ -206,8 +219,8 @@
                         <i class="fa fa-pencil-alt"></i>
                         <h5>Web Design</h5>
                     </div>
-                    <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit 
-                        erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non 
+                    <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit
+                        erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non
                         augue dapibus porttitor at in mauris. Pellentesque commodo...
                     </p>
                 </div>
@@ -216,8 +229,8 @@
                         <i class="fa fa-code"></i>
                         <h5>Web Development</h5>
                     </div>
-                    <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit 
-                        erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non 
+                    <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit
+                        erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non
                         augue dapibus porttitor at in mauris. Pellentesque commodo...
                     </p>
                 </div>
@@ -226,29 +239,31 @@
                         <i class="fa fa-search"></i>
                         <h5>Seo Analisys</h5>
                     </div>
-                    <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit 
-                        erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non 
+                    <p>Consectetur adipiscing elit. Praesent molestie urna hendrerit
+                        erat tincidunt tempus. Aliquam a leo risus. Fusce a metus non
                         augue dapibus porttitor at in mauris. Pellentesque commodo...
                     </p>
                 </div>
-               
+
             </div>
         </div>
-                                                                <!-- Blog -->
+        <!-- Blog -->
 
         <div id="blogs" class="latest-news">
-            
+
             <div class="header-latest-news">
                 <div class="header-news">
                     <h3>Latest News</h3>
                 </div>
                 <div class="content-news">
                     <p>
-                        If you are interested in the latest articles in the industry, 
+                        If you are interested in the latest articles in the industry,
                         take a sneak peek at our blog. You have nothing to loose!
                     </p>
                 </div>
-                <div class="btn-news"><span><i class="fa fa-chevron-circle-right"></i></span><a href="">See blog</a></div>
+                <div class="btn-news">
+                    <a href=""><i class="fa fa-chevron-circle-right"></i> See blog</a>
+                </div>
             </div>
             <div class="post-news">
                 <div class="post">
@@ -262,15 +277,15 @@
                             <h5>We Have Made Illdy Theme SEO Friendly</h5>
                         </div>
                         <div class="post-content">
-                            <p>Illdy One Page WordPress theme is fully SEO friendly 
+                            <p>Illdy One Page WordPress theme is fully SEO friendly
                                 and is ready to help you to achieve the highest rankings…
                             </p>
                         </div>
                         <div class="post-btn">
-                            <a href=""><i class="fa fa-chevron-circle-right"></i>Read more</a>
+                            <a href=""><i class="fa fa-chevron-circle-right"></i> Read more</a>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="post">
@@ -282,15 +297,15 @@
                             <h5>Stunning One Page WordPress Theme For Masses</h5>
                         </div>
                         <div class="post-content">
-                            <p>This theme is not just free, it is free for private and 
+                            <p>This theme is not just free, it is free for private and
                                 commercial use since it is licensed under GPL…
                             </p>
                         </div>
                         <div class="post-btn">
-                            <a href="" class="post-btn"><i class="fa fa-chevron-circle-right"></i>Read more</a>
+                            <a href="" class="post-btn"><i class="fa fa-chevron-circle-right"></i> Read more</a>
                         </div>
                     </div>
-                    
+
                 </div>
 
                 <div class="post">
@@ -302,23 +317,189 @@
                             <h5>Hello world!</h5>
                         </div>
                         <div class="post-content">
-                            <p>Welcome to colorlib.com. This is our first post around Illdy 
+                            <p>Welcome to colorlib.com. This is our first post around Illdy
                                 WordPress theme. Now show that you can make out of it.…
                             </p>
                         </div>
                         <div class="post-btn">
-                            <a href=""><i class="fa fa-chevron-circle-right"></i>Read more</a>
+                            <a href=""><i class="fa fa-chevron-circle-right"></i> Read more</a>
                         </div>
                     </div>
-                   
+
+                </div>
+            </div>
+        </div>
+        <!-- Team -->
+
+        <div id="team" class="class-team top-project">
+            <div class="header-team">
+                <h3>Team</h3>
+                <p>Meet the people that are going to take your business to the next level.
+                </p>
+            </div>
+            <div class="main-team">
+                <div class="mem-team">
+                    <div class="ava-mem">
+                        <img src="./images/front-page/front-page-team-1.jpg" alt="">
+                    </div>
+                    <div class="info-mem">
+                        <h6>Mark Lawrance</h6>
+                        <span class="mem1">
+                            <p>Web Designer</p>
+                        </span>
+                        <p>Creative, detail-oriented, always focused.</p>
+                        <div class="mem mem1">
+                            <ul>
+                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mem-team">
+                    <div class="ava-mem">
+                        <img src="./images/front-page/front-page-team-2.jpg" alt="">
+                    </div>
+                    <div class="info-mem">
+                        <h6>Jane Stenton</h6>
+                        <span class="mem2">
+                            <p>SEO Specialist</p>
+                        </span>
+                        <p>Curious, tech-geeck and gets serious when it comes to work.</p>
+                        <div class="mem mem2">
+                            <ul>
+                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="mem-team">
+                    <div class="ava-mem">
+                        <img src="./images/front-page/front-page-team-3.jpg" alt="">
+                    </div>
+                    <div class="info-mem">
+                        <h6>John Smith</h6>
+                        <span class="mem3">
+                            <p>Developer</p>
+                        </span>
+                        <p>Enthusiastic, passionate with great sense of humor.</p>
+                        <div class="mem mem3">
+                            <ul>
+                                <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact us -->
+
+        <div id="contact" class="class-contact">
+            <div class="title-contact">
+                <h3>Contact us</h3>
+            </div>
+            <div class="main-contact">
+                <div class="infor-contact">
+                    <div class="box-contact">
+                        <div class="box-left" id="add-left">
+                            <p>Address</p>
+                        </div>
+                        <div class="box-right">
+                            <p>Street 221B Baker Street,</p>
+                            <p>London, UK</p>
+                        </div>
+                    </div>
+                    <div class="box-contact">
+                        <div class="box-left">
+                            <p>Customer Support</p>
+                        </div>
+                        <div class="box-right">
+                            <p>E-mail: <span><a href="contact@site.com">contact@site.com</a></span></p>
+                            <p>Phone: (555) 555-5555</p>
+                        </div>
+                    </div>
+                    <div class="onl-contact">
+                        <ul>
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="feed-back">
+                    <form action="#">
+                        <div class="infor-customer">
+                            <label for="">Your Name (required)<input type="text"></label>
+                            <label for="">Your Email (required)<input type="text"></label>
+
+                            <label for="">Subject <input type="text"></label>
+
+                        </div>
+                        <div class="message">
+                            <label for="">Your Message <textarea name="" id="" cols="40" rows="10"></textarea></label>
+                        </div>
+                        <div class="btn-send">
+                            <input type="submit" value="Send">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
     </main>
 
     <footer>
-
+        <div class="top-footer">
+            <div class="main-footer products">
+                <div class="widget-title">
+                    <h5>products</h5>
+                </div>
+                <div class="widget">
+                    <ul>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Our work</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Club</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>News</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Announcement</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-footer information">
+                <div class="widget-title">
+                    <h5>information</h5>
+                </div>
+                <div class="widget">
+                    <ul>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Pricing</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Terms</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Affiliates</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-footer support">
+                <div class="widget-title">
+                    <h5>suppor</h5>
+                </div>
+                <div class="widget">
+                    <ul>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Documentation</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>FAQs</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Forums</a></li>
+                        <li><a href=""><i class="fas fa-angle-right"></i>Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p><i class="far fa-copyright"></i> Copyright 2020. All Rights Reserved.</p>
+        </div>
     </footer>
+    <script src="./jquery/jquery.js"></script>
+    <script src="./javascript.js"></script>
 </body>
 
 </html>
